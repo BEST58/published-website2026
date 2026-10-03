@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #f8f9eb;
+}
+
+header {
+    background-color: rgba(118, 4, 28);
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-text h1 {
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.main-about {
+    max-width: 800px;      /* never wider than this, so lines stay readable */
+    margin: 0 auto;        /* centers the whole block horizontally */
+    padding: 40px 20px;    /* breathing room so text never touches screen edges */
+    text-align: center;    /* centers the title and the paragraph text */
+}
+.title {
+    font-size: clamp(1.8rem, 5vw, 3rem);   /* scales with screen, with min and max */
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.6;      /* easier to read */
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(118, 4, 28);
+    width: 100%;
+    height: 100px;
+}
+
+footer p{
+    color: #fff;
+    padding: 20px 10px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    font-family: 'Exo', sans-serif;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #cd5c5c;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.imageList img{
+    max-width:  1600px;
+    max-height: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pics img{
+    max-width:  1600px;
+    max-height: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
